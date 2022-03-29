@@ -33,5 +33,5 @@ var climbStairs = function(n) {
         return memo[n];
     }
 }
-// time: O(n) - size of recursion tree can go up to n
+// time: O(n^2) - climbStairs is called twice within the climbStairs fn
 // space: O(n)
